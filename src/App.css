@@ -8,6 +8,7 @@ body {
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
+  width: 100%;
 }
 header {
   font-size: 2rem;
@@ -29,6 +30,7 @@ form button {
   height: 50px;
 }
 form button {
+  width: 50px;
   color: #fff;
   background: #ff6f47;
   cursor: pointer;
@@ -67,6 +69,7 @@ form button:hover {
 }
 .todo li {
   flex: 1;
+  padding: 0 1rem;
 }
 
 .trash-btn,
@@ -135,9 +138,43 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
+
+.input__field {
+  display: flex;
+  align-items: center;
+}
 /* Transition */
 /*
 .select:hover::after {
   transform: scale(1.5);
 }
 */
+@media only screen and (max-width: 700px) {
+  body {
+    width: 100%;
+  }
+  form {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 1rem;
+  }
+  form input {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  header h1 {
+    padding: 0 2rem;
+    font-size: 2rem;
+  }
+} 
+
+@media only screen and (max-width: 1000px) {
+  .todo li {
+    width: 250px;
+  }
+} 
+
+@media all and (orientation: landscape) and (max-width) {}
+@media all and (orientation: portrait) and (max-width) {}
