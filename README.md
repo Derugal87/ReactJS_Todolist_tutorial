@@ -1,3 +1,9 @@
+# Preview
+
+![Screen Shot 2022-11-16 at 2 38 57 PM(2)](https://user-images.githubusercontent.com/60985658/202183645-4b48c41c-db08-4a07-98f4-b310ce9e3ae5.jpg) </br>
+Small WebApp on React.js for faster access to your task list, including editing list.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
